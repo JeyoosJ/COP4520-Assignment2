@@ -1,0 +1,10 @@
+I chose method 2. This is because it is a good balance of simplicity of solution and effectiveness. Implementing a queue (code with threads and locks) might be cumbersome and spoil the experience for some guests as they might have to wait for very long in the queue. If guests were allowed to queue multiple times, then some guests might not get a chance to view the vase at all, whereas other guests would get multiple chances. I implemented the solution in such a way that each guest is able to view the vase once. 
+
+1) Advantages - Ease of implementing, ability to enjoy the party
+Disadvantages - Large crowds at entrance, no way to know who came first, not everyone might be able to see the vase
+
+2) Advantages - All guests can see the vase. Nobody will have to crowd around the door as the sign will be visible. Can enjoy the party. Easy to implement. First come first serve basis.
+Disadvantages - If two guests arrive at the entrance at the same time, it will be difficult to choose who goes first. If guests are allowed to go multiple times, the same person can keep reentering.
+
+3) Advantages - Easy to know who came first. 
+Disadvantages - Guests waiting too long in queue. Nobody might enjoy the party as they ll spend a lot of time waiting in queue. Some guests might not be able to see the vase if guests are allowed to visit multiple times. Complexity of implementation.

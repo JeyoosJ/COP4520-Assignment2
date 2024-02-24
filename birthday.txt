@@ -1,0 +1,7 @@
+Each thread represents a guest. Before the start of the game, a guest (Guest 0) will be chosen to count the number of cupcakes eaten. Let everyone know that they should only eat the cupcake once. If they eat it once, they should never eat it again. Each time a guest eats a cupcake, guest 0 adds 1 to the total. The game will be stopped when the total number of cupcakes eaten = total number of guests, including guest 0. Guest 0 can count by two ways -
+
+1) (Solution implemented) Wait at the spot where people get the cupcake and count how many times the cupcake is eaten. Everyone replaces the cupcake after eating it for the first time. 
+
+2) Don't allow anyone to replace the cupcake after eating. Only guest 0, when he enters and sees an empty plate will replace the cupcake and add to his total. But this method will increase runtime as other guests will have to navigate the labyrinth and not have anything to eat if someone before ate, unless guest 0 was chosen and replaced the cupcake.  
+
+In this way, the solution will follow all the requirements of the game.
